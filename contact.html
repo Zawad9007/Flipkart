@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="shortcut icon"
+    href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico"
+    type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        body{
+            background-image: url(https://cdn.pixabay.com/photo/2016/06/07/17/15/yogurt-1442034_960_720.jpg);
+            background-size: cover;
+        }
+    div.int{
+        border: 9px solid whitesmoke;
+        display: flex;
+        flex-direction: column;
+        padding: 90px;
+        position: relative;
+        top: 121px;
+        width: 411px;
+        left: 25%;
+
+    }
+    .int input{
+        padding: 30px 132px;
+    }
+    </style>
+</head>
+<div class="load"></div>
+<body>
+    <header>
+        
+        <nav>
+            <div class="logo">
+                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                    alt="">
+            </div>
+            <ul>
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </ul>
+        </nav>
+    </header>
+    <form action="/signup" method="post" id="signup"> 
+    
+    <div class="int">
+    <input class="email"type="email" placeholder="Enter your Email">
+    <input class="pass" type="password" placeholder="Enter your Password">
+    <input class="pass" type="text" placeholder="Enter your massege">
+    <input class="btn"  type="button" value="Submit">
+    </div>
+    </form>
+</body>
+
+<script>
+    function clickEffect(e) {
+        let d = document.createElement("div");
+        d.className = "clickEffect";
+        d.style.top = e.clientY + "px"; d.style.left = e.clientX + "px";
+        document.body.appendChild(d);
+        d.addEventListener('animationend', function () { d.parentElement.removeChild(d); }.bind(this));
+    }
+    document.addEventListener('click', clickEffect);
+
+
+</script>
+</html>

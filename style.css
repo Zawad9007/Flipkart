@@ -1,0 +1,447 @@
+/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+
+/* var */
+:root {
+    --blue--: #2874f0;
+}
+
+/* Css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body styles */
+body {
+    /* font-family: 'Mukta', sans-serif; */
+    overflow-x: hidden;
+}
+
+/* header styles */
+header {
+    background-color: var(--blue--);
+    position: sticky;
+    top: 0;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    ;
+    width: 100vw;
+    font-family: 'Mukta', sans-serif;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+    position: relative;
+    left: -11vw;
+    font-size: 2vw;
+
+}
+nav ul a:active {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+    padding: 1vw;
+    position: relative;
+    left: -11vw;
+    font-size: 2vw;
+
+}
+
+nav ul a:hover {
+    text-decoration: solid white underline;
+    font-size: xx-large;
+    transition: all .2s;
+}
+
+/* logo styles */
+.logo {
+    position: absolute;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    top: 18px;
+}
+
+.logo img {
+    width: 9vw;
+
+}
+
+/* serchbar disings */
+.Search {
+    position: absolute;
+    right: 20px;
+    height: 37px;
+    width: 28%;
+    top: 15px;
+}
+
+.i i {
+    position: absolute;
+    right: 37px;
+    top: 23px;
+    font-size: 27px;
+    color: var(--blue--);
+
+}
+
+.i i:hover {
+    color: var(--blue--);
+    cursor: pointer;
+}
+
+/* footer disings */
+footer {
+    background: var(--blue--);
+    height: 5vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-family: 'Mukta', sans-serif;
+
+}
+
+/* .containers disings */
+.container {
+    width: 100vw;
+}
+
+.container img {
+    padding: 90px;
+    cursor: pointer;
+}
+
+.container h1,
+.container span {
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container h1:hover,
+.container span:hover {
+    color: mediumslateblue;
+}
+
+.left {
+    position: relative;
+    left: -189px;
+}
+
+.mid {
+    position: relative;
+    left: -173px;
+}
+
+.right {
+    position: relative;
+    right: 179px;
+}
+
+/* click effect */
+div.clickEffect {
+    position: fixed;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #0800ff;
+    border-radius: 50%;
+    animation: clickEffect 0.5s ease-out;
+    z-index: 99999;
+}
+
+@keyframes clickEffect {
+    0% {
+        opacity: 100;
+        width: 0.5em;
+        height: 0.5em;
+        margin: -0.25em;
+        border-width: 0.5em;
+    }
+
+    100% {
+        opacity: 0.2;
+        width: 15em;
+        height: 15em;
+        margin: -7.5em;
+        border-width: 0.03em;
+    }
+}
+/* about us page  */
+.con,.h1{
+    margin: 0% 9%;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 9000;
+}
+.h1{
+    font-size: 39px;
+    display: inline;
+}
+.h1:hover{
+    text-decoration: red solid underline;
+}
+
+/* maedia  */
+@media (max-width:1000px){
+    header{
+        height: 142px;
+        display: flex;
+    }
+    nav ul a{
+        position: relative;
+        left: -26px;
+        display: block;
+    }
+    .logo{
+        position: fixed;
+        top: 85px;
+        left: -389px;
+    }
+    .i {
+        display: none;
+    }
+}
+@media (max-width:600px){
+    nav ul a{
+        font-size: 16px;
+    }
+}/* imports */
+@import url('https://fonts.googleapis.com/css2?family=Mukta:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@800&display=swap');
+
+/* var */
+:root {
+    --blue--: #2874f0;
+}
+
+/* Css reset */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* body styles */
+body {
+    /* font-family: 'Mukta', sans-serif; */
+    overflow-x: hidden;
+}
+
+/* header styles */
+header {
+    background-color: var(--blue--);
+    position: sticky;
+    top: 0;
+    height: 5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 90;
+    ;
+    width: 100vw;
+    font-family: 'Mukta', sans-serif;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
+    padding: 1vw;
+    position: relative;
+    left: -11vw;
+    font-size: 2vw;
+
+}
+nav ul a:active {
+    color: rgb(0, 132, 255);
+    text-decoration: none;
+    padding: 1vw;
+    position: relative;
+    left: -11vw;
+    font-size: 2vw;
+
+}
+
+nav ul a:hover {
+    text-decoration: solid white underline;
+    font-size: xx-large;
+    transition: all .2s;
+}
+
+/* logo styles */
+.logo {
+    position: absolute;
+    left: 5px;
+    display: flex;
+    align-items: center;
+    top: 18px;
+}
+
+.logo img {
+    width: 9vw;
+
+}
+
+/* serchbar disings */
+.Search {
+    position: absolute;
+    right: 20px;
+    height: 37px;
+    width: 28%;
+    top: 15px;
+}
+
+.i i {
+    position: absolute;
+    right: 37px;
+    top: 23px;
+    font-size: 27px;
+    color: var(--blue--);
+
+}
+
+.i i:hover {
+    color: var(--blue--);
+    cursor: pointer;
+}
+
+/* footer disings */
+footer {
+    background: var(--blue--);
+    height: 5vw;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer p {
+    font-family: 'Mukta', sans-serif;
+
+}
+
+/* .containers disings */
+.container {
+    width: 100vw;
+}
+
+.container img {
+    padding: 90px;
+    cursor: pointer;
+}
+
+.container h1,
+.container span {
+    font-family: 'Mukta', sans-serif;
+    text-align: center;
+    cursor: pointer;
+}
+
+.container h1:hover,
+.container span:hover {
+    color: mediumslateblue;
+}
+
+.left {
+    position: relative;
+    left: -189px;
+}
+
+.mid {
+    position: relative;
+    left: -173px;
+}
+
+.right {
+    position: relative;
+    right: 179px;
+}
+
+/* click effect */
+div.clickEffect {
+    position: fixed;
+    box-sizing: border-box;
+    border-style: solid;
+    border-color: #0800ff;
+    border-radius: 50%;
+    animation: clickEffect 0.5s ease-out;
+    z-index: 99999;
+}
+
+@keyframes clickEffect {
+    0% {
+        opacity: 100;
+        width: 0.5em;
+        height: 0.5em;
+        margin: -0.25em;
+        border-width: 0.5em;
+    }
+
+    100% {
+        opacity: 0.2;
+        width: 15em;
+        height: 15em;
+        margin: -7.5em;
+        border-width: 0.03em;
+    }
+}
+/* about us page  */
+.con,.h1{
+    margin: 0% 9%;
+    font-family: 'Baloo 2', cursive;
+    font-weight: 9000;
+}
+.h1{
+    font-size: 39px;
+    display: inline;
+}
+.h1:hover{
+    text-decoration: red solid underline;
+}
+
+/* maedia  */
+@media (max-width:1000px){
+    header{
+        height: 142px;
+        display: flex;
+    }
+    nav ul a{
+        position: relative;
+        left: -26px;
+        display: block;
+    }
+    .logo{
+        position: fixed;
+        top: 85px;
+        left: -389px;
+    }
+    .i {
+        display: none;
+    }
+}
+@media (max-width:600px){
+    nav ul a{
+        font-size: 16px;
+    }
+}
+/* .load effect */
+.load{
+    opacity: 0;
+    width: 1px;
+    animation: load linear .6s 1;
+    background-color: rgb(255, 0, 0);
+}
+@keyframes load {
+    100%{
+        height: 2px;
+        width: 100vw;
+        opacity: 100;
+    }
+}

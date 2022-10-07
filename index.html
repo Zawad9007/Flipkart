@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Shopping Site for Mobiles, Electronics, Furniture, Grocery, Lifestyle, Books &amp; More. Best Offers!
+    </title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon"
+        href="https://static-assets-web.flixcart.com/www/promos/new/20150528-140547-favicon-retina.ico"
+        type="image/x-icon">
+</head>
+
+<body>
+    <div class="load"></div>
+    <header>
+        <div class="i">
+
+            <input class="Search" type="text" title="Search for products, brands and more" name="q" autocomplete="off"
+                placeholder="Search for products, brands and more" value="">
+            <i class="fa fa-search"></i>
+
+        </div>
+        <nav>
+            <div class="logo">
+                <img src="https://static-assets-web.flixcart.com/fk-p-linchpin-web/fk-cp-zion/img/flipkart-plus_8d85f4.png"
+                    alt="">
+            </div>
+            <ul>
+                <a href=" ">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </ul>
+        </nav>
+    </header>
+    <template data-user-template>
+    <div class="container">
+        <br><br><br>
+        <h1>Top Offers And Best Salce</h1>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/5db4f944104bb869.png?q=100" alt="">
+        <span class="left">Travels</span>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/e999774f38afcdb7.png?q=100" alt="">
+        <span class="mid">Furniture</span>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/a50deab37650e11b.png?q=100" alt="">
+        <span class="right">Stock</span>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/308474d15817c1b3.png?q=100" alt="">
+        <span class="left">Parfumes</span>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/da4e107d50844c45.png?q=100" alt="">
+        <span class="mid">Gagets</span>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/18289de2eebb6654.png?q=100" alt="">
+        <span class="right">Stock</span>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/962ede9fbddf94f4.png?q=100" alt="">
+        <span class="left">Phones</span>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/6c459ae5fc2ffc78.png?q=100" alt="">
+        <span class="mid">Save50%</span>
+        <img src="https://rukminim1.flixcart.com/fk-p-flap/128/128/image/4c7bfe781ed06f33.png?q=100" alt="">
+
+        <span class="right">Grocery</span>
+        <br><br><br>
+    </template>
+    </div>
+
+    <footer>
+        <p>Copyriht &copy;2022</p>
+    </footer>
+</body>
+<script>
+    function clickEffect(e) {
+        let d = document.createElement("div");
+        d.className = "clickEffect";
+        d.style.top = e.clientY + "px"; d.style.left = e.clientX + "px";
+        document.body.appendChild(d);
+        d.addEventListener('animationend', function () { d.parentElement.removeChild(d); }.bind(this));
+    }
+    document.addEventListener('click', clickEffect);
+
+    $('body').on('click', function() { 
+    createWindow(); 
+}); 
+('body').on('click', function() { 
+    createWindow(); 
+}); 
+
+</script>
+<script src="index.js" defer></script>
+<script src="https://kit.fontawesome.com/098cb2b7bf.js" crossorigin="anonymous"></script>
+</html>
